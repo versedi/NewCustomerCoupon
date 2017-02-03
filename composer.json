@@ -1,0 +1,19 @@
+{
+    "name": "versedi/new-customer-coupon",
+    "description": "New customer coupon",
+    "license": "OSL",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "Tadeusz Stępnikowski - versedi",
+            "email": "versedi@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
