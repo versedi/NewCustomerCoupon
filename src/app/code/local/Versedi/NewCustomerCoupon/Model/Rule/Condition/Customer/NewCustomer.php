@@ -33,7 +33,7 @@ class Versedi_NewCustomerCoupon_Model_Rule_Condition_Customer_NewCustomer extend
         return $html;
     }
 
-    public function validate($object) {
+    public function validate(Varien_Object $object) {
         return (bool)$object->getQuote()->getCustomer()->getIsCustomerNew();
     }
 }
